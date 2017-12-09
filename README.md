@@ -23,6 +23,13 @@ const EnhancedComponent = enhancer1(_uid2);
 ```
 Single variable declaration and 'compose' name are required.
 
+## Installation
+
+```
+$ yarn add extract-hoc-compose -D -E
+```
+Add `"extract-hoc-compose/babel"` to your Babel plugins before
+`"react-hot-loader/babel"`.
 ## Caveats
 The plugin must run before 'react-hot-loader/babel', however Babel 6
 does not respect plugin ordering. With webpack, possible solution is to
