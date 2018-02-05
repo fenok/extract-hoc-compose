@@ -1,5 +1,7 @@
 # extract-hoc-compose
 
+> **Note:** You should use [react-hot-loader v4 (beta)](https://github.com/gaearon/react-hot-loader/tree/next), wich solves issues with HOCs in a general way. You don't need extract-hoc and/or extract-hoc-compose to use it.
+
 Super simple and super dumb babel plugin that extracts HOCs from compose
 method, enabling simultaneous usage of
 [react-hot-loader](https://github.com/gaearon/react-hot-loader) and
